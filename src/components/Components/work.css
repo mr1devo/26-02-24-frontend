@@ -1,0 +1,38 @@
+.image-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .card {
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+  
+  .card img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .card-content {
+    padding: 20px;
+  }
+  
+  .card-title {
+    margin: 0;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .card-description {
+    margin: 10px 0 0;
+    font-size: 1rem;
+  }
+
+  .work h1{
+    font-size: 3rem;
+  }
+  

@@ -1,0 +1,112 @@
+.form-container {
+    width: 400px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  .form-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="tel"], input[type="date"],
+  select,
+  input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  /* Add this CSS to your Event.css file or any other stylesheet */
+
+.modal-header {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.modal-footer {
+  justify-content: space-between;
+}
+
+.text-danger {
+  color: #dc3545;
+}
+/* Add this CSS to your Event.css file or any other stylesheet */
+
+.modal-content {
+  border-radius: 10px;
+}
+
+.modal-header {
+  background-color: #007bff;
+  color: #fff;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.modal-body {
+  font-size: 16px;
+}
+
+.modal-footer {
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.btn-secondary {
+  background-color: #6c757d;
+}
+
+.btn-primary {
+  background-color: #007bff;
+}
+
+.btn-secondary:hover,
+.btn-primary:hover {
+  opacity: 0.8;
+}
+
+.button-container button {
+  display: inline-block;
+  margin-right: 10px; 
+}
+
+
